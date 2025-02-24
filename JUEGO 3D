@@ -1,0 +1,31 @@
+crea un juego 3d relacionado con la accion y rpg con lenguaje HTML COLOCA UN PERSONAGE CON ANIMACION 3D COLOCA UN MAPA PEQUEÑO PARA EL PERSONAJE MOVERSE HACIA CUALQUIER DIMENCION
+
+
+
+
+
+
+¡Claro que sí! Aunque crear un juego 3D completo con animaciones, un mapa y mecánicas RPG en HTML puro es un proyecto bastante complejo, puedo darte una idea básica para empezar y algunos recursos que te pueden ayudar:
+
+Estructura HTML Básica:
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Juego 3D</title>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden; /* Oculta la barra de desplazamiento */
+    }
+    #canvas {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="canvas"></canvas>
+  <script src="script.js"></script> </body>
+</html>
